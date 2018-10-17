@@ -1,23 +1,43 @@
 
 .logo{
-  width: 190px;
+  width: 150px;
   padding: 20px 1px 12px 20px;
 }
-
-
-
-.tablemy{
-  display:block;
-  color:black;
+.span1{
+  color: #ffcc32;
+}
+.wing{
+  background: #75AABC;
+  
+}
+.title{
+width: 6px;
+justify-content: left;
+  color:white;
+  text-align: left;
   font-weight:bold;
-  font-size: 25px;
+  font-size: 45px;
   padding left: 12px;
 }
+.tablemy{
+  display:block;
+ 
+}
 .moviesearch{
-color: gray;
+color: white;
+margin-top:22px;
+margin-bottom: 25px;
 font-size: 16px;
 display: block;
-
+transform: translateX(4%);
+box-sizing: border-box;
+width: 95%;
+height: 42px;
+padding: 8px;
+background: #ffcc32;
+border: none;
+  border-radius: 2px;
+  
 }
 
 
