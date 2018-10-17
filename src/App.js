@@ -11,19 +11,25 @@ class App extends Component {
   }
   render() {
     return (
+      <div className="row">
+      <div className="col-4"></div>
+      <div className="col-4">
       <div className="App">
         <table className="tablemy">
           <tbody>
             <td>
-              <img src="logo.jpg" width="50"/>
+              <img src="logo.jpg" className="logo"/>
             </td>
             <td>
               MoviesDB search 
             </td>
           </tbody>
         </table>
-        <input  className="moviesearch" placeholder="Enter a movie name.." />
+        <input   className="form-control"  className="moviesearch" placeholder="Enter a movie name.." />
         {this.state.rows}
+      </div>
+      <div className="col-4"></div>
+      </div>
       </div>
     );
   }

@@ -1,8 +1,16 @@
+
+.logo{
+  width: 190px;
+  padding: 20px 1px 12px 20px;
+}
+
+
+
 .tablemy{
   display:block;
-  color: orange;
-  font weight:bold;
-  font size:20 px;
+  color:black;
+  font-weight:bold;
+  font-size: 25px;
   padding left: 12px;
 }
 .moviesearch{
