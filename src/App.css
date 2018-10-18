@@ -1,4 +1,17 @@
 
+table{
+  margin: 25px;
+}
+
+
+.post{
+
+width: 50%;
+
+}
+
+
+
 .logo{
   width: 150px;
   padding: 20px 1px 12px 20px;
@@ -23,6 +36,7 @@ justify-content: left;
   display:block;
  
 }
+
 .moviesearch{
 color: white;
 margin-top:22px;
