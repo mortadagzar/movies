@@ -20,7 +20,6 @@ this.state={rows:[<p>hello it is row</p>,
 
  ]
 
-  
 var movieRaw=[];
 movies.forEach(movies => {
   const moviess=<table>
